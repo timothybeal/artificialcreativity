@@ -1,8 +1,6 @@
 # A fairly simple RNN trainer for the Keras_NN_text_generator.py. It is
 # character-based, generating text one character at a time rather than
-# one word at a time. It is small enough to train on a Mac or PC, but
-# just barely (it took 30 hours on mine, after which I decided to run
-# it on my university's High Performance Computing Cluster).
+# one word at a time.
 
 # Improved with an additional LSTM layer (two instead of one), 50 epochs
 # instead of 20, and batch size of 64 instead of 128. Run on text once, then
